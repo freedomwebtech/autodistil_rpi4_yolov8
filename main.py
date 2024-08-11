@@ -42,8 +42,8 @@ while True:
             cvzone.putTextRect(frame,f'{c}',(x1,y1),1,1)
             cv2.rectangle(frame,(x1,y1),(x2,y2),(0,255,0),2)
         elif "person" in c:
-        cvzone.putTextRect(frame,f'{c}',(x1,y1),1,1)
-        cv2.rectangle(frame,(x1,y1),(x2,y2),(255,0,0),2)
+            cvzone.putTextRect(frame,f'{c}',(x1,y1),1,1)
+            cv2.rectangle(frame,(x1,y1),(x2,y2),(255,0,0),2)
             
 
     
