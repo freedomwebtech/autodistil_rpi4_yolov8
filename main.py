@@ -13,7 +13,7 @@ my_file = open("coco1.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 
-tracker=Tracker()
+
 
 count=0
 while True:
